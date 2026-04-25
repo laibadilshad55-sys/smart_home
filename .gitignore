@@ -1,0 +1,49 @@
+# === SMART HOME PROJECT SPECIFIC ===
+db.php                    # Database credentials
+config/db.php            # Agar folder mein ho toh
+*.env                    # Environment variables
+api_config.php           # API keys for smart devices
+
+# === DATABASE FILES ===
+*.sql
+*.sqlite
+*.db
+database.sql
+smart_home_db.sql
+
+# === LOGS (may contain device activity) ===
+*.log
+device_logs/
+error_logs/
+access_logs/
+
+# === BACKUP FILES ===
+*.bak
+*.backup
+backup_*.php
+*.old
+
+# === SENSITIVE CONFIG ===
+config/secrets.php
+credentials.json
+device_tokens.php
+mqtt_credentials.php
+
+# === TEMP & CACHE ===
+*.tmp
+temp/
+cache/
+*.cache
+
+# === IDE & OS ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# === DEPLOYMENT ===
+.env.production
+.env.local
+config/production.php
